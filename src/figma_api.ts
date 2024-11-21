@@ -18,7 +18,7 @@ export default class FigmaApi {
       url: `${this.baseUrl}/v1/files/${fileKey}/variables/local`,
       headers: {
         Accept: '*/*',
-        'X-Figma-Token': this.token,
+        'X_Figma_Token': this.token,
       },
     })
 
@@ -31,7 +31,7 @@ export default class FigmaApi {
       method: 'POST',
       headers: {
         Accept: '*/*',
-        'X-Figma-Token': this.token,
+        'X_Figma_Token': this.token,
       },
       data: payload,
     })

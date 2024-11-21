@@ -3,7 +3,7 @@
     "Sheet": {
       "Background": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -45,7 +45,7 @@
       },
       "Text Primary Inverted": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -447,7 +447,7 @@
     "General": {
       "Dynamic": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -475,7 +475,7 @@
       },
       "Static Dark": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {

@@ -16,9 +16,9 @@
         }
       }
     },
-    "Deep Blue": {
+    "Deep Green": {
       "$type": "color",
-      "$value": "#000028",
+      "$value": "#25322f",
       "$description": "",
       "$extensions": {
         "com.figma": {

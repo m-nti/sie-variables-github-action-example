@@ -10,9 +10,7 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {
-            "WEB": "Primary/White"
-          }
+          "codeSyntax": {}
         }
       }
     },

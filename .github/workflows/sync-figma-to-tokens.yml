@@ -15,9 +15,9 @@ jobs:
       pull-requests: write
     steps:
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.16.0'
+          node-version: '20.11.1'
 
       - name: Set NPM version
         run: npm install -g npm@9.5.1

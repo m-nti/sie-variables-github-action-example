@@ -1,0 +1,392 @@
+{
+  "Spacing": {
+    "Section": {
+      "dimension-12": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 2000 (80)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "Component": {
+      "dimension-1": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 100 (4)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-2": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 200 (8)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-3": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 300 (12)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-4": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 400 (16)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-5": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 500 (20)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-6": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 600 (24)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-7": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 800 (32)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-8": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 1000 (40)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-9": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 1200 (48)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-10": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 1400 (56)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "dimension-11": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 1600 (64)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT",
+              "GAP",
+              "EFFECT_FLOAT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "Grid": {
+      "Column Gutter": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 800 (32)}",
+        "$description": "NOTE: the DISW gutters are inconsistent form AG gutters.",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "Container Padding SM": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 400 (16)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "Container Padding": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 800 (32)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "Section Padding": {
+        "$type": "number",
+        "$value": "{Dimensions.Element.grid 2000 (80)}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "Container Max-width": {
+        "$type": "number",
+        "$value": "{Dimensions.Viewport.Content Container}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    }
+  },
+  "Border Radius": {
+    "Default border radius": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "Border radiuses are not in use across Siemens sites.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "CORNER_RADIUS"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "Border Width": {
+    "element border": {
+      "$type": "number",
+      "$value": "{Dimensions.Element.grid 25 (1)}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "STROKE_FLOAT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "content divider": {
+      "$type": "number",
+      "$value": "{Dimensions.Element.grid 50 (2)}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "STROKE_FLOAT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "content divider LG": {
+      "$type": "number",
+      "$value": "{Dimensions.Element.grid 100 (4)}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "Viewports": {
+    "LG Viewport": {
+      "$type": "number",
+      "$value": "{Dimensions.Viewport.LG Viewport}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "MD Viewport": {
+      "$type": "number",
+      "$value": 1024,
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "SM Viewport": {
+      "$type": "number",
+      "$value": 768,
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "XS Viewport": {
+      "$type": "number",
+      "$value": "{Dimensions.Viewport.XS Viewport}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "Canvas": {
     "Frame BG": {
       "$type": "color",
-      "$value": "{Primary.Deep Blue}",
+      "$value": "{Primary.Deep Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -277,7 +277,7 @@
       },
       "action-border-tertiary": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -293,7 +293,7 @@
     "Content": {
       "action-content-primary": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -363,7 +363,7 @@
       },
       "action-content-always-blue": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {

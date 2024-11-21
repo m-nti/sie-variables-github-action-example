@@ -10,7 +10,7 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": "{moin-larsi-x3}"
         }
       }
     },
@@ -25,7 +25,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue"
+            
           }
         }
       }
@@ -41,7 +41,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-bold-green"
+            
           }
         }
       }
@@ -57,7 +57,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-siemens-petrol"
+            
           }
         }
       }
@@ -73,7 +73,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-bold-blue"
+            
           }
         }
       }
@@ -89,23 +89,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-light-sand"
-          }
-        }
-      }
-    },
-    "Deep Green": {
-      "$type": "color",
-      "$value": "#25322f",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "$color-deep-blue"
+            
           }
         }
       }
@@ -123,7 +107,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-85"
+            
           }
         }
       }
@@ -139,7 +123,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-80"
+            
           }
         }
       }
@@ -155,7 +139,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-70"
+            
           }
         }
       }
@@ -171,7 +155,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-60-dark-gray"
+            
           }
         }
       }
@@ -187,7 +171,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-55"
+            
           }
         }
       }
@@ -203,7 +187,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-50"
+            
           }
         }
       }
@@ -219,7 +203,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-40"
+            
           }
         }
       }
@@ -235,7 +219,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-30-medium-gray"
+            
           }
         }
       }
@@ -251,7 +235,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-20-soft-gray"
+            
           }
         }
       }
@@ -267,7 +251,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-10"
+            
           }
         }
       }
@@ -283,7 +267,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-deep-blue-8"
+            
           }
         }
       }
@@ -299,7 +283,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-dark-sand"
+            
           }
         }
       }
@@ -315,7 +299,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-soft-sand"
+            
           }
         }
       }
@@ -331,7 +315,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-bright-sand"
+            
           }
         }
       }
@@ -347,7 +331,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-dark-blue"
+            
           }
         }
       }
@@ -363,7 +347,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-blue"
+            
           }
         }
       }
@@ -379,7 +363,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-soft-blue"
+            
           }
         }
       }
@@ -395,7 +379,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-dark-green"
+            
           }
         }
       }
@@ -411,7 +395,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-siemens-petrol"
+            
           }
         }
       }
@@ -427,7 +411,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-soft-green"
+            
           }
         }
       }
@@ -443,7 +427,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-dark-purple"
+            
           }
         }
       }
@@ -459,7 +443,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-purple"
+            
           }
         }
       }
@@ -475,7 +459,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-soft-purple"
+            
           }
         }
       }
@@ -494,7 +478,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-interactive-coral"
+              
             }
           }
         }
@@ -510,7 +494,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-interactive-coral-80-db"
+              
             }
           }
         }
@@ -526,7 +510,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-interactive-coral-70-db"
+              
             }
           }
         }
@@ -542,7 +526,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-interactive-coral-50-db"
+              
             }
           }
         }
@@ -558,7 +542,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-interactive-coral-20-db"
+              
             }
           }
         }
@@ -574,7 +558,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-interactive-coral-12-db"
+              
             }
           }
         }
@@ -590,7 +574,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-interactive-coral-8-db"
+              
             }
           }
         }
@@ -606,7 +590,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-bold-green-60"
+              
             }
           }
         }
@@ -622,7 +606,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-bold-green-90-db"
+              
             }
           }
         }
@@ -638,7 +622,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-bold-green-65-db"
+              
             }
           }
         }
@@ -654,7 +638,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-bold-green-60-db"
+              
             }
           }
         }
@@ -670,7 +654,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-bold-green-55-db"
+              
             }
           }
         }
@@ -686,7 +670,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-bold-green-45-db"
+              
             }
           }
         }
@@ -702,7 +686,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-bold-green-12-db"
+              
             }
           }
         }
@@ -718,7 +702,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-dark-red"
+              
             }
           }
         }
@@ -734,7 +718,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-dark-yellow"
+              
             }
           }
         }
@@ -750,7 +734,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-light-green-40"
+              
             }
           }
         }
@@ -766,7 +750,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-focus-blue-30-db-auto-filled"
+              
             }
           }
         }
@@ -784,7 +768,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-interactive-blue"
+              
             }
           }
         }
@@ -800,7 +784,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-teal"
+              
             }
           }
         }
@@ -816,7 +800,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-teal-90"
+              
             }
           }
         }
@@ -832,7 +816,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-teal-84"
+              
             }
           }
         }
@@ -848,7 +832,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-teal-80"
+              
             }
           }
         }
@@ -864,7 +848,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-teal-74"
+              
             }
           }
         }
@@ -880,7 +864,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-teal-64"
+              
             }
           }
         }
@@ -896,7 +880,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-light-red"
+              
             }
           }
         }
@@ -912,7 +896,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-light-yellow"
+              
             }
           }
         }
@@ -928,7 +912,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-interactive-cyan-8"
+              
             }
           }
         }
@@ -944,7 +928,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-bold-green-18"
+              
             }
           }
         }
@@ -960,7 +944,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-light-green"
+              
             }
           }
         }
@@ -976,7 +960,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-focus-blue-20-auto-filled"
+              
             }
           }
         }
@@ -993,7 +977,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-focus-blue"
+            
           }
         }
       }
@@ -1012,7 +996,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-blue-dark"
+              
             }
           }
         }
@@ -1028,7 +1012,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-green-dark"
+              
             }
           }
         }
@@ -1044,7 +1028,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-yellow-dark"
+              
             }
           }
         }
@@ -1060,7 +1044,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-orange-dark"
+              
             }
           }
         }
@@ -1076,7 +1060,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-red-dark"
+              
             }
           }
         }
@@ -1092,7 +1076,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-red-text-dark"
+              
             }
           }
         }
@@ -1110,7 +1094,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-blue-light"
+              
             }
           }
         }
@@ -1126,7 +1110,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-green-light"
+              
             }
           }
         }
@@ -1142,7 +1126,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-green-text-light"
+              
             }
           }
         }
@@ -1158,7 +1142,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-yellow-light"
+              
             }
           }
         }
@@ -1174,7 +1158,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-orange-light"
+              
             }
           }
         }
@@ -1190,7 +1174,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-red-light"
+              
             }
           }
         }
@@ -1206,7 +1190,7 @@
               "ALL_SCOPES"
             ],
             "codeSyntax": {
-              "WEB": "$color-feedback-red-text-light"
+              
             }
           }
         }
@@ -1225,7 +1209,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-opa-0"
+            
           }
         }
       }
@@ -1241,7 +1225,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-bold-blue-opa-8"
+            
           }
         }
       }
@@ -1257,7 +1241,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-bold-blue-opa-12"
+            
           }
         }
       }
@@ -1273,7 +1257,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "$color-bold-blue-opa-20"
+            
           }
         }
       }

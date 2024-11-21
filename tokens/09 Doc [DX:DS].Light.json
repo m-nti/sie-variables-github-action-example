@@ -17,7 +17,7 @@
       },
       "Background Inverted": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -31,7 +31,7 @@
       },
       "Text Primary": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -461,7 +461,7 @@
       },
       "Dynamic Inverted": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -475,7 +475,7 @@
       },
       "Static Dark": {
         "$type": "color",
-        "$value": "{Primary.Deep Blue}",
+        "$value": "{Primary.Deep Green}",
         "$description": "",
         "$extensions": {
           "com.figma": {

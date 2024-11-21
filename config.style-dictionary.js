@@ -48,13 +48,6 @@ export default {
         format: 'javascript/es6'
       }]
     },
-    ts: {
-      transformGroup: 'js',
-      buildPath: 'build/ts/',
-      files: [{
-        destination: 'variables.ts',
-        format: 'typescript/es6-declarations'
-      }]
-    }
+ 
   }
 }; 

@@ -10,9 +10,7 @@
           "scopes": [
             "FRAME_FILL",
             "TEXT_FILL"
-          ],
-          "codeSyntax": {}
-        }
+          ]        }
       }
     },
     "Frame BG Inverted": {
@@ -25,8 +23,7 @@
           "scopes": [
             "FRAME_FILL",
             "TEXT_FILL"
-          ],
-          "codeSyntax": {}
+          ]
         }
       }
     }
@@ -42,10 +39,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {
-              "WEB": "$color-action-fill-primary"
-            }
+            ]
           }
         }
       },
@@ -58,8 +52,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -72,8 +65,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -86,8 +78,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -100,8 +91,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -114,8 +104,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -128,8 +117,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -142,8 +130,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },

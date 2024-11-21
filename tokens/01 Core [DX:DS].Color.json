@@ -10,7 +10,7 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": "{moin-larsi-x3}"
+          "codeSyntax": {}
         }
       }
     },
@@ -23,7 +23,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -36,7 +37,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -49,7 +51,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -62,7 +65,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -75,7 +79,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     }
@@ -90,7 +95,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -103,7 +109,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -116,7 +123,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -129,7 +137,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -142,7 +151,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -155,7 +165,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -168,7 +179,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -181,7 +193,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -194,7 +207,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -207,7 +221,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -220,7 +235,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -233,7 +249,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -246,7 +263,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -259,7 +277,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -272,7 +291,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -285,7 +305,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -298,7 +319,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -311,7 +333,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -324,7 +347,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -337,7 +361,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -350,7 +375,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -363,7 +389,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -376,7 +403,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     }
@@ -392,7 +420,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -405,7 +434,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -418,7 +448,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -431,7 +462,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -444,7 +476,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -457,7 +490,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -470,7 +504,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -483,7 +518,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -496,7 +532,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -509,7 +546,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -522,7 +560,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -535,7 +574,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -548,7 +588,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -561,7 +602,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -574,7 +616,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -587,7 +630,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -600,7 +644,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -613,7 +658,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       }
@@ -628,7 +674,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -641,7 +688,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -654,7 +702,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -667,7 +716,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -680,7 +730,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -693,7 +744,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -706,7 +758,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -719,7 +772,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -732,7 +786,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -745,7 +800,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -758,7 +814,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -771,7 +828,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -784,7 +842,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       }
@@ -798,7 +857,10 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {
+            "WEB": "$color-focus-blue"
+          }
         }
       }
     }
@@ -814,7 +876,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -827,7 +890,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -840,7 +904,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -853,7 +918,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -866,7 +932,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -879,7 +946,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       }
@@ -894,7 +962,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -907,7 +976,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -920,7 +990,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -933,7 +1004,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -946,7 +1018,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -959,7 +1032,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -972,7 +1046,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       }
@@ -988,7 +1063,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -1001,7 +1077,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -1014,7 +1091,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     },
@@ -1027,7 +1105,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     }
@@ -1042,7 +1121,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     }
@@ -1057,7 +1137,8 @@
           "hiddenFromPublishing": false,
           "scopes": [
             "ALL_SCOPES"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     }

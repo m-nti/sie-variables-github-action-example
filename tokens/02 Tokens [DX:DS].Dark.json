@@ -10,7 +10,9 @@
           "scopes": [
             "FRAME_FILL",
             "TEXT_FILL"
-          ]        }
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "Frame BG Inverted": {
@@ -23,7 +25,8 @@
           "scopes": [
             "FRAME_FILL",
             "TEXT_FILL"
-          ]
+          ],
+          "codeSyntax": {}
         }
       }
     }
@@ -39,7 +42,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -52,7 +56,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -65,7 +70,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -78,7 +84,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -91,7 +98,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -104,7 +112,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -117,7 +126,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -130,7 +140,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -143,7 +154,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -156,7 +168,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -169,7 +182,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -182,7 +196,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       }
@@ -197,7 +212,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -210,7 +226,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -223,7 +240,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -236,7 +254,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -249,7 +268,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -262,7 +282,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       }
@@ -277,7 +298,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -290,7 +312,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -303,7 +326,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -316,7 +340,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -329,7 +354,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -342,7 +368,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       },
@@ -355,7 +382,8 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ]
+            ],
+            "codeSyntax": {}
           }
         }
       }

@@ -17,7 +17,7 @@
     },
     "Frame BG Inverted": {
       "$type": "color",
-      "$value": "{Primary.Deep Blue}",
+      "$value": "{Primary.Deep Green}",
       "$description": "",
       "$extensions": {
         "com.figma": {

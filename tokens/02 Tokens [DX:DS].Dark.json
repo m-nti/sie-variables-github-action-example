@@ -143,8 +143,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -157,8 +156,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -171,8 +169,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -185,8 +182,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       }
@@ -201,8 +197,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -215,8 +210,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -229,8 +223,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -243,8 +236,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -257,8 +249,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -271,8 +262,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "STROKE_COLOR"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       }
@@ -287,8 +277,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -301,8 +290,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -315,8 +303,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -329,8 +316,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -343,8 +329,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_FILLS"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -357,8 +342,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       },
@@ -371,8 +355,7 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
+            ]
           }
         }
       }

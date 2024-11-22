@@ -35,7 +35,7 @@
     "Fill": {
       "action-fill-primary": {
         "$type": "color",
-        "$value": "{Interaction.Dark.Interactive Coral}",
+        "$value": "{Primary.Siemens Petrol}",
         "$description": "",
         "$extensions": {
           "com.figma": {

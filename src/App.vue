@@ -70,8 +70,6 @@ const toggleTheme = () => {
     h2 {
       color: var(--spez-sheet-text-primary);
       margin: 0;
-      font-family: "Comic Sans MS", "Comic Sans", cursive;
-      font-size: 1.5rem;
     }
   }
 
@@ -88,7 +86,10 @@ const toggleTheme = () => {
     display: flex;
     align-items: center;
     gap: 8px;
+    font-weight: 600;
+    font-size: 0.85rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   
     
     .icon {
       font-size: 1.2em;
@@ -97,7 +98,7 @@ const toggleTheme = () => {
     }
 
     .text {
-      font-weight: 500;
+    
       letter-spacing: 0.5px;
       text-transform: uppercase;
       font-size: 0.9em;
@@ -113,11 +114,13 @@ const toggleTheme = () => {
       background: radial-gradient(
         circle,
         var(--action-fill-primary-hover) 0%,
+        rgba(255, 255, 255, 0.1) 35%,
         transparent 70%
       );
       border-radius: 50%;
-      transition: width 0.6s ease-out, height 0.6s ease-out;
-      opacity: 0.5;
+      transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+      opacity: 0;
+      mix-blend-mode: soft-light;
     }
 
     &:hover {
@@ -130,15 +133,17 @@ const toggleTheme = () => {
       }
 
       .ripple-effect {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
+        opacity: 0.8;
       }
     }
 
-    &:active {
-      transform: translateY(0);
-      background: var(--action-fill-primary-active);
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    &:active .ripple-effect {
+      width: 160px;
+      height: 160px;
+      opacity: 1;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     // Theme-specific styles

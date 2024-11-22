@@ -1,0 +1,45 @@
+==Release notes for SiemensSans Pro, SiemensSans Pro VF==
+
+Compiler of release notes: Dalton Maag
+Designer: Dalton Maag
+Designer URL: daltonmaag.com
+
+Release date: 2024-03-29
+
+Change log:
+- v7.001: Improved kerntable consistency with SiemensSans Pro Global v3.000.
+- v7.000: This is the first release. The fonts are based on Siemens Sans Professional v6.000.
+
+Basic information
+1 Font name:
+    - Static: SiemensSans Pro
+    - Variable: SiemensSans Pro VF
+2 TrueType Version record: 7.001
+3 Character set: All European Latin, Latin Extended, Vietnamese, Symbols, Cyrillic, Greek
+4 Supported scripts: Latin, Cyrillic, Greek
+5 Number of glyphs:
+    - Uprights: 1354
+    - Italics: 1361
+6 Static weights: Roman, SBold, Bold
+7 Usage: Text and Display
+8 Number of axes: 1
+9 Axes:
+    - Weight
+        tag: wght
+        range: 400 (Roman) - 700 (Bold)
+10 Named instances: Roman, Italic, SBold, SBold Italic, Bold, Bold Italic
+
+Technology
+1 File formats:
+    - Static: The files have been delivered in the TrueType-based OpenType format, for use in all major Operating Systems, and also as TTF for use in apps, and in web font format: WOFF; WOFF2.
+    - Variable: The files have been delivered as variable fonts in the TrueType-based OpenType format, for use in all major Operating Systems, and also as TTF for use in apps, and in web font format: WOFF2.
+2 Embedding settings: Editing of the document is allowed (editable mode); subsetting is allowed.
+3 Screen optimization information: PixelFix CTAA screen optimization technology.
+4 Default numerals: Tabular lining numerals as default. Also contains proportional lining and proportional oldstyle numerals.
+
+Other information
+The fonts contain the following OpenType features:
+    - Small Caps
+    - Case Sensitive math symbols and punctuation.
+The fonts contain the following OpenType Stylistic Set:
+    - ss01: Disable Dutch ij

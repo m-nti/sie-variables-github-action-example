@@ -23,11 +23,19 @@ defineProps({
 </script>
 
 <style lang="scss">
+@use '../styles/_fonts.scss';
+
 .base-button {
-  padding: 8px 16px;
+  font-family: 'Siemens Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.15rem;
+  letter-spacing: 0.0em;
+  text-transform: none;
+  padding: 8px 32px;
   border-radius: 0;
   cursor: pointer;
   transition: all 0.2s ease;
+  height: 44px;
   
   // Primary variant (default)
   background-color: var(--action-fill-primary);

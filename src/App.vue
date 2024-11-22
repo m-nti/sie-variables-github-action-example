@@ -8,10 +8,12 @@
       <div class="button-row">
         <BaseButton>Primary Button</BaseButton>
         <BaseButton variant="secondary">Secondary Button</BaseButton>
+        <BaseButton variant="tertiary">Tertiary Button</BaseButton>
       </div>
       <div class="button-row">
         <BaseButton disabled>Disabled Primary</BaseButton>
         <BaseButton variant="secondary" disabled>Disabled Secondary</BaseButton>
+        <BaseButton variant="tertiary" disabled>Disabled Tertiary</BaseButton>
       </div>
     </div>
   </div>

@@ -21,8 +21,8 @@
     <div class="button-section">
       <h3>Tertiary Buttons</h3>
       <div class="button-row">
-        <BaseButton variant="tertiary">Default</BaseButton>
-        <BaseButton variant="tertiary" disabled>Disabled</BaseButton>
+        <BaseButton variant="tertiary">Tertiary Button</BaseButton>
+        <BaseButton variant="tertiary" disabled>Disabled Tertiary</BaseButton>
       </div>
     </div>
   </div>
@@ -33,8 +33,8 @@ import BaseButton from './BaseButton.vue'
 </script>
 
 <style lang="scss">
-@use '@/build/scss/_variables.scss' as *;
-@use '@/build/scss/_themes.scss' as *;
+@use '../build/scss/_variables.scss' as *;
+@use '../build/scss/_themes.scss' as *;
 
 .button-demo {
   padding: 2rem;
@@ -45,15 +45,15 @@ import BaseButton from './BaseButton.vue'
     margin-bottom: 2rem;
 
     h3 {
-      color: var(--spez-sheet-text-secondary);
       margin-bottom: 1rem;
+      color: var(--spez-sheet-text-primary);
     }
   }
 
   .button-row {
     display: flex;
     gap: 1rem;
-    align-items: center;
+    margin-bottom: 1rem;
   }
 }
 </style> 

@@ -10,7 +10,9 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "LARSI-IST-SEXY"
+          }
         }
       }
     },
@@ -44,7 +46,7 @@
     },
     "Siemens Petrol": {
       "$type": "color",
-      "$value": "#ffd732",
+      "$value": "#009999",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -292,7 +294,9 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "$color-dark-blue"
+          }
         }
       }
     },
@@ -334,7 +338,9 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "$color-dark-green"
+          }
         }
       }
     },
@@ -348,7 +354,9 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "$color-siemens-petrol"
+          }
         }
       }
     },
@@ -362,7 +370,9 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "$color-soft-green"
+          }
         }
       }
     },
@@ -376,7 +386,9 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "$color-dark-purple"
+          }
         }
       }
     },
@@ -390,7 +402,9 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "$color-purple"
+          }
         }
       }
     },
@@ -404,7 +418,9 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "$color-soft-purple"
+          }
         }
       }
     }
@@ -421,7 +437,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-interactive-coral"
+            }
           }
         }
       },
@@ -435,7 +453,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-interactive-coral-80-db"
+            }
           }
         }
       },
@@ -449,7 +469,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-interactive-coral-70-db"
+            }
           }
         }
       },
@@ -463,7 +485,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-interactive-coral-50-db"
+            }
           }
         }
       },
@@ -477,7 +501,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-interactive-coral-20-db"
+            }
           }
         }
       },
@@ -491,7 +517,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-interactive-coral-12-db"
+            }
           }
         }
       },
@@ -505,7 +533,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-interactive-coral-8-db"
+            }
           }
         }
       },
@@ -519,7 +549,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-bold-green-60"
+            }
           }
         }
       },
@@ -533,7 +565,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-bold-green-90-db"
+            }
           }
         }
       },
@@ -547,7 +581,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-bold-green-65-db"
+            }
           }
         }
       },
@@ -561,7 +597,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-bold-green-60-db"
+            }
           }
         }
       },
@@ -575,7 +613,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-bold-green-55-db"
+            }
           }
         }
       },
@@ -589,7 +629,9 @@
             "scopes": [
               "ALL_SCOPES"
             ],
-            "codeSyntax": {}
+            "codeSyntax": {
+              "WEB": "$color-bold-green-45-db"
+            }
           }
         }
       },

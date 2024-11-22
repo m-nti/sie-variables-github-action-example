@@ -33,18 +33,19 @@ import BaseButton from './BaseButton.vue'
 </script>
 
 <style lang="scss">
-@import '@/build/scss/_variables.scss';
+@use '@/build/scss/_variables.scss' as *;
+@use '@/build/scss/_themes.scss' as *;
 
 .button-demo {
   padding: 2rem;
-  background-color: $canvas-frame-bg;
-  color: $text-primary;
+  background-color: var(--canvas-frame-bg);
+  color: var(--spez-sheet-text-primary);
 
   .button-section {
     margin-bottom: 2rem;
 
     h3 {
-      color: $text-secondary;
+      color: var(--spez-sheet-text-secondary);
       margin-bottom: 1rem;
     }
   }

@@ -44,7 +44,7 @@
     },
     "Siemens Petrol": {
       "$type": "color",
-      "$value": "#009999",
+      "$value": "#ffd732",
       "$description": "",
       "$extensions": {
         "com.figma": {

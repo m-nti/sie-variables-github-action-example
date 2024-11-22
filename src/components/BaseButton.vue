@@ -25,7 +25,7 @@ defineProps({
 <style lang="scss">
 .base-button {
   padding: 8px 16px;
-  border-radius: 4px;
+  border-radius: 0;
   cursor: pointer;
   transition: all 0.2s ease;
   

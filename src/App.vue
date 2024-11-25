@@ -78,6 +78,8 @@ onMounted(() => {
     h2 {
       color: var(--canvas-text);
       margin: 0;
+      font-family: Comic Sans MS;
+      font-size: 1.5rem;
     }
   }
 

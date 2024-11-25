@@ -10,11 +10,7 @@ const tokensDir = path.join(__dirname, 'tokens');
 const variablesPath = path.join(__dirname, 'build', 'scss', '_variables.scss');
 const themesOutputPath = path.join(__dirname, 'build', 'scss', '_themes.scss');
 
-const tokensSourceDir = path.join(__dirname, '@tokens'); // Directory for @tokens
-const specificTokenFiles = [ // Specify the exact files to process
-  '01 Core [DX:DS].Color.json',
-  // Add more files as needed
-];
+
 
 // Function to read and parse JSON token files
 const readTokenFiles = (filePath) => {
@@ -128,17 +124,6 @@ try {
   let lightTokens = {};
   let coreTokens = {};
 
-  // Process core files first
-  specificTokenFiles.forEach(file => { // Use the specificTokenFiles array
-    const filePath = path.join(tokensSourceDir, file);
-    if (fs.existsSync(filePath)) {
-      const tokens = readTokenFiles(filePath);
-      const flatTokens = flattenTokens(tokens);
-      coreTokens = { ...coreTokens, ...flatTokens };
-    } else {
-      console.warn(`Warning: Core file ${file} not found`);
-    }
-  });
 
   // Process dark theme files
   THEME_FILES.dark.forEach(file => {

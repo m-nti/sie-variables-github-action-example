@@ -22,16 +22,9 @@ StyleDictionary.registerTransform({
 });
 
 export default {
-  source: ['tokens/*01*.json'],
+  source: ['tokens/*01*.json'], // 'tokens/*09*.json'],
   platforms: {
-    css: {
-      transformGroup: 'css',
-      buildPath: 'build/css/',
-      files: [{
-        destination: 'variables.css',
-        format: 'css/variables'
-      }]
-    },
+
     scss: {
       transformGroup: 'scss',
       buildPath: 'build/scss/',
@@ -40,7 +33,19 @@ export default {
         format: 'scss/variables'
       }]
     },
-    js: {
+
+    /*
+   css: {
+      transformGroup: 'css',
+      buildPath: 'build/css/',
+      files: [{
+        destination: 'variables.css',
+        format: 'css/variables'
+      }]
+    },
+
+ 
+     js: {
       transformGroup: 'js',
       buildPath: 'build/js/',
       files: [{
@@ -48,6 +53,21 @@ export default {
         format: 'javascript/es6'
       }]
     },
- 
+    ios: {
+      transformGroup: 'ios',
+      buildPath: 'build/ios/',
+      files: [{
+        destination: 'Variables.swift',
+        format: 'ios-swift/class.swift'
+      }]
+    },
+    android: {
+      transformGroup: 'android',
+      buildPath: 'build/android/',
+      files: [{
+        destination: 'colors.xml',
+        format: 'android/colors'
+      }]
+    }, */
   }
 }; 

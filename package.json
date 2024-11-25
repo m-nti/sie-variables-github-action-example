@@ -7,11 +7,12 @@
     "sync-figma-to-tokens": "tsx src/sync_figma_to_tokens.ts",
     "test": "jest",
     "build:tokens": "style-dictionary build --config config.style-dictionary.js",
+    "build:themes": "node generateThemes.mjs",
     "clean:tokens": "rm -rf build",
     "build:tokens:watch": "style-dictionary build --config config.style-dictionary.js --watch",
     "test:tokens": "npx vitest src/style-dictionary-transformer.test.ts",
     "test:tokens:watch": "npx vitest src/style-dictionary-transformer.test.ts --watch",
-    "dev": "npm run build:tokens && vite",
+    "dev": "npm run build:tokens && npm run build:themes && vite",
     "serve": "vite preview"
   },
   "dependencies": {

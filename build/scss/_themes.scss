@@ -1,0 +1,25 @@
+// Auto-generated dark theme
+
+@mixin dark-theme {
+  --frame-bg: {Primary.Deep Blue};
+  --frame-bg-inverted: $primary-white;
+}
+
+// Auto-generated dark theme
+
+@mixin dark-theme {
+}
+
+
+// Auto-generated light theme
+
+@mixin light-theme {
+  --frame-bg: $primary-white;
+  --frame-bg-inverted: {Primary.Deep Blue};
+}
+
+// Auto-generated light theme
+
+@mixin light-theme {
+}
+

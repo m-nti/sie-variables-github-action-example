@@ -10,6 +10,9 @@ const tokensDir = path.join(__dirname, 'tokens');
 const variablesPath = path.join(__dirname, 'build', 'scss', '_variables.scss');
 const themesOutputPath = path.join(__dirname, 'build', 'scss', '_themes.scss');
 
+const tokensSourceDir = path.join(__dirname, '@tokens'); // Directory for @tokens
+const specificTokenFiles = ['01 Core [DX:DS].Color.json']; // Specify the exact file to process
+
 // Function to read and parse JSON token files
 const readTokenFiles = (filePath) => {
   const data = fs.readFileSync(filePath, 'utf-8');
@@ -36,23 +39,38 @@ const convertToScssVariable = (value) => {
   // Extract the reference from within curly braces
   const reference = value.match(/{([^}]+)}/)[1];
   return '$' + reference.toLowerCase()
-    .replace(/\./g, '-')
-    .replace(/\s+/g, '-')
-    .replace(/[()]/g, '')
-    .replace(/--/g, '-');
+  .replace(/\./g, '-')
+  .replace(/\s+/g, '-')
+  .replace(/[()]/g, '')
+  .replace(/--/g, '-')  
+  .replace(/[^a-z0-9-]/g, '-') // Replace any non-alphanumeric character with a dash
+    .replace(/-+/g, '-')         // Replace multiple consecutive dashes with a single dash
+    .replace(/^-+|-+$/g, '');    // Remove leading and trailing dashes
+    
 };
 
 // Convert token path to CSS variable name
 const convertToCssVariable = (path) => {
-  // Split the path and remove the group name (e.g., "Fill", "Content")
+  // Split the path and remove any unwanted parts
   const pathParts = path.split('.');
   const lastPart = pathParts[pathParts.length - 1];
   
   return '--' + lastPart.toLowerCase()
-    .replace(/\./g, '-')
-    .replace(/\s+/g, '-')
-    .replace(/[()]/g, '')
-    .replace(/--/g, '-');
+  .replace(/\./g, '-')
+  .replace(/\s+/g, '-')
+  .replace(/[()]/g, '')
+  .replace(/--/g, '-')  
+  .replace(/[^a-z0-9-]/g, '-') // Replace any non-alphanumeric character with a dash
+    .replace(/-+/g, '-')         // Replace multiple consecutive dashes with a single dash
+    .replace(/^-+|-+$/g, '');    // Remove leading and trailing dashes
+};
+
+// Filter and validate tokens
+const isValidToken = (path, value) => {
+  // Only include tokens that have valid references and are color-related
+  return value.includes('{') && 
+         !path.toLowerCase().includes('spacing') && // Exclude spacing tokens
+         !path.toLowerCase().includes('test');      // Exclude test tokens
 };
 
 // Flatten nested tokens object and collect color tokens with references
@@ -75,8 +93,10 @@ const generateSCSSMixins = (tokens, theme, scssVariables) => {
   
   const groupedTokens = {};
 
-  // Group tokens by their top-level category
+  // Group tokens by their top-level category and filter out unwanted tokens
   Object.entries(tokens).forEach(([path, value]) => {
+    if (!isValidToken(path, value)) return;
+    
     const category = path.split('.')[0];
     if (!groupedTokens[category]) {
       groupedTokens[category] = {};
@@ -109,8 +129,11 @@ const generateSCSSMixins = (tokens, theme, scssVariables) => {
 
 // Main execution
 try {
-  // Read all token files
-  const tokenFiles = fs.readdirSync(tokensDir).filter(file => file.endsWith('.json'));
+  // Read specific token files from @tokens directory
+  const tokenFiles = specificTokenFiles.filter(file => 
+    fs.existsSync(path.join(tokensSourceDir, file))
+  );
+  
   const scssVariables = readSCSSVariables(variablesPath);
   
   let darkTokens = {};

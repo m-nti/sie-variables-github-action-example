@@ -1,8 +1,3 @@
-// Import the variables
 @use './_variables' as *;
 
 
-@mixin custom-button {
-  background-color: var(--action-fill-primary);
-  color: var(--action-content-primary);
-}   

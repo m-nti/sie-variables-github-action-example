@@ -11,5 +11,15 @@ export default defineConfig({
   },
   server: {
     port: 1337
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `
+          @use "./build/scss/_variables.scss" as *;
+          @use "./build/scss/_themes.scss" as *;
+        `
+      }
+    }
   }
 }) 

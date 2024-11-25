@@ -16,14 +16,15 @@ const readTokenFiles = (filePath) => {
   return JSON.parse(data);
 };
 
-// Function to read SCSS variables
+// Function to read SCSS variables with their values
 const readSCSSVariables = (filePath) => {
   const data = fs.readFileSync(filePath, 'utf-8');
-  const variables = new Set();
-  const regex = /\$([a-z0-9-]+):/g;
+  const variables = new Map();
+  const regex = /\$([a-z0-9-]+):\s*(#[a-f0-9]{6}|rgba?\([^)]+\))/gi;
   let match;
+  
   while ((match = regex.exec(data)) !== null) {
-    variables.add(match[1]);
+    variables.set(match[1], match[2].trim());
   }
   return variables;
 };
@@ -43,7 +44,11 @@ const convertToScssVariable = (value) => {
 
 // Convert token path to CSS variable name
 const convertToCssVariable = (path) => {
-  return '--' + path.toLowerCase()
+  // Split the path and remove the group name (e.g., "Fill", "Content")
+  const pathParts = path.split('.');
+  const lastPart = pathParts[pathParts.length - 1];
+  
+  return '--' + lastPart.toLowerCase()
     .replace(/\./g, '-')
     .replace(/\s+/g, '-')
     .replace(/[()]/g, '')
@@ -66,7 +71,8 @@ const flattenTokens = (obj, parentPath = '', result = {}) => {
 
 // Generate SCSS mixins
 const generateSCSSMixins = (tokens, theme, scssVariables) => {
-  let scssContent = `// Auto-generated ${theme} theme\n@mixin ${theme}-theme {\n`;
+  let scssContent = `// Auto-generated ${theme} theme\n@mixin theme-${theme} {\n`;
+  
   const groupedTokens = {};
 
   // Group tokens by their top-level category
@@ -86,9 +92,13 @@ const generateSCSSMixins = (tokens, theme, scssVariables) => {
       const cssVarName = convertToCssVariable(path);
       const scssVarName = convertToScssVariable(value);
       
-      // Only include if the SCSS variable exists in _variables.scss
-      if (scssVarName && scssVariables.has(scssVarName.substring(1))) {
-        scssContent += `  ${cssVarName}: ${scssVarName};\n`;
+      if (scssVarName) {
+        const varNameWithoutDollar = scssVarName.substring(1);
+        const hexValue = scssVariables.get(varNameWithoutDollar);
+        
+        if (hexValue) {
+          scssContent += `  ${cssVarName}: #{$${varNameWithoutDollar}};\n`;
+        }
       }
     });
   });
@@ -123,7 +133,8 @@ try {
   const lightThemeSCSS = generateSCSSMixins(lightTokens, 'light', scssVariables);
 
   // Write to _themes.scss
-  fs.writeFileSync(themesOutputPath, darkThemeSCSS + lightThemeSCSS);
+  const finalSCSS = `@use '../build/scss/_variables.scss' as *;\n\n${darkThemeSCSS}${lightThemeSCSS}`;
+  fs.writeFileSync(themesOutputPath, finalSCSS);
   console.log('Themes have been generated successfully!');
 
 } catch (error) {

@@ -1,96 +1,98 @@
+@use '../build/scss/_variables.scss' as *;
+
 // Auto-generated dark theme
-@mixin dark-theme {
+@mixin theme-dark {
 
   // Canvas
-  --canvas-frame-bg: $primary-deep-blue;
-  --canvas-frame-bg-inverted: $primary-white;
+  --frame-bg: #{$primary-deep-blue};
+  --frame-bg-inverted: #{$primary-white};
 
   // Actions
-  --actions-fill-action-fill-primary: $interaction-dark-interactive-coral;
-  --actions-fill-action-fill-primary-hover: $primary-bold-green;
-  --actions-fill-action-fill-primary-active: $interaction-dark-bold-green-90-db;
-  --actions-fill-action-fill-primary-disabled: $secondary-deep-blue-80;
-  --actions-fill-action-fill-secondary: $transparent-opa0;
-  --actions-fill-action-fill-secondary-hover: $interaction-dark-bold-green-12-db;
-  --actions-fill-action-fill-secondary-active: $transparent-opa0;
-  --actions-fill-action-fill-tertiary-hover: $interaction-dark-light-green-40;
-  --actions-fill-action-fill-tertiary-active: $interaction-dark-bold-green-90-db;
-  --actions-fill-action-fill-accent-solid: $primary-white;
-  --actions-fill-action-fill-accent-solid-hover: $primary-bold-green;
-  --actions-fill-action-fill-accent-solid-active: $interaction-dark-bold-green-90-db;
-  --actions-border-action-border-primary: $transparent-opa0;
-  --actions-border-action-border-secondary: $interaction-dark-interactive-coral;
-  --actions-border-action-border-secondary-hover: $primary-bold-green;
-  --actions-border-action-border-secondary-active: $primary-bold-green;
-  --actions-border-action-border-disabled: $secondary-deep-blue-55;
-  --actions-border-action-border-tertiary: $primary-deep-blue;
-  --actions-content-action-content-primary: $primary-deep-blue;
-  --actions-content-action-content-secondary: $interaction-dark-interactive-coral;
-  --actions-content-action-content-secondary-hover: $primary-bold-green;
-  --actions-content-action-content-secondary-active: $primary-bold-green;
-  --actions-content-action-content-disabled: $secondary-deep-blue-55;
-  --actions-content-action-content-always-blue: $primary-deep-blue;
-  --actions-content-action-content-always-white: $primary-white;
+  --action-fill-primary: #{$interaction-dark-interactive-coral};
+  --action-fill-primary-hover: #{$primary-bold-green};
+  --action-fill-primary-active: #{$interaction-dark-bold-green-90-db};
+  --action-fill-primary-disabled: #{$secondary-deep-blue-80};
+  --action-fill-secondary: #{$transparent-opa0};
+  --action-fill-secondary-hover: #{$interaction-dark-bold-green-12-db};
+  --action-fill-secondary-active: #{$transparent-opa0};
+  --action-fill-tertiary-hover: #{$interaction-dark-light-green-40};
+  --action-fill-tertiary-active: #{$interaction-dark-bold-green-90-db};
+  --action-fill-accent-solid: #{$primary-white};
+  --action-fill-accent-solid-hover: #{$primary-bold-green};
+  --action-fill-accent-solid-active: #{$interaction-dark-bold-green-90-db};
+  --action-border-primary: #{$transparent-opa0};
+  --action-border-secondary: #{$interaction-dark-interactive-coral};
+  --action-border-secondary-hover: #{$primary-bold-green};
+  --action-border-secondary-active: #{$primary-bold-green};
+  --action-border-disabled: #{$secondary-deep-blue-55};
+  --action-border-tertiary: #{$primary-deep-blue};
+  --action-content-primary: #{$primary-deep-blue};
+  --action-content-secondary: #{$interaction-dark-interactive-coral};
+  --action-content-secondary-hover: #{$primary-bold-green};
+  --action-content-secondary-active: #{$primary-bold-green};
+  --action-content-disabled: #{$secondary-deep-blue-55};
+  --action-content-always-blue: #{$primary-deep-blue};
+  --action-content-always-white: #{$primary-white};
 
   // Spez
-  --spez-sheet-background: $primary-deep-blue;
-  --spez-sheet-background-inverted: $primary-white;
-  --spez-sheet-text-primary: $primary-white;
-  --spez-sheet-text-primary-inverted: $primary-deep-blue;
-  --spez-sheet-text-secondary: $secondary-deep-blue-30-medium-gray;
-  --spez-general-dynamic: $primary-deep-blue;
-  --spez-general-dynamic-inverted: $primary-white;
-  --spez-general-static-dark: $primary-deep-blue;
-  --spez-general-static-light: $primary-white;
-  --spez-general-highlight-dark: $feedback-dark-feedback-red-text;
-  --spez-general-highlight-light: $interaction-light-light-red;
+  --background: #{$primary-deep-blue};
+  --background-inverted: #{$primary-white};
+  --text-primary: #{$primary-white};
+  --text-primary-inverted: #{$primary-deep-blue};
+  --text-secondary: #{$secondary-deep-blue-30-medium-gray};
+  --dynamic: #{$primary-deep-blue};
+  --dynamic-inverted: #{$primary-white};
+  --static-dark: #{$primary-deep-blue};
+  --static-light: #{$primary-white};
+  --highlight-dark: #{$feedback-dark-feedback-red-text};
+  --highlight-light: #{$interaction-light-light-red};
 }
 
 // Auto-generated light theme
-@mixin light-theme {
+@mixin theme-light {
 
   // Canvas
-  --canvas-frame-bg: $primary-white;
-  --canvas-frame-bg-inverted: $primary-deep-blue;
+  --frame-bg: #{$primary-white};
+  --frame-bg-inverted: #{$primary-deep-blue};
 
   // Actions
-  --actions-fill-action-fill-primary: $interaction-light-interactive-blue;
-  --actions-fill-action-fill-primary-hover: $interaction-light-teal;
-  --actions-fill-action-fill-primary-active: $interaction-light-teal-90;
-  --actions-fill-action-fill-primary-disabled: $secondary-deep-blue-10;
-  --actions-fill-action-fill-secondary: $transparent-opa0;
-  --actions-fill-action-fill-secondary-hover: $interaction-light-bold-green-18;
-  --actions-fill-action-fill-secondary-active: $transparent-opa0;
-  --actions-fill-action-fill-tertiary-hover: $interaction-light-light-green;
-  --actions-fill-action-fill-tertiary-active: $interaction-light-bold-green-18;
-  --actions-fill-action-fill-accent-solid: $primary-deep-blue;
-  --actions-fill-action-fill-accent-solid-hover: $interaction-light-teal;
-  --actions-fill-action-fill-accent-solid-active: $interaction-dark-bold-green-90-db;
-  --actions-border-action-border-primary: $transparent-opa0;
-  --actions-border-action-border-secondary: $interaction-light-interactive-blue;
-  --actions-border-action-border-secondary-hover: $interaction-light-teal;
-  --actions-border-action-border-secondary-active: $interaction-light-teal;
-  --actions-border-action-border-disabled: $secondary-deep-blue-40;
-  --actions-border-action-border-tertiary: $primary-deep-blue;
-  --actions-content-action-content-primary: $primary-white;
-  --actions-content-action-content-secondary: $interaction-light-interactive-blue;
-  --actions-content-action-content-secondary-hover: $interaction-light-teal;
-  --actions-content-action-content-secondary-active: $interaction-light-teal;
-  --actions-content-action-content-disabled: $secondary-deep-blue-40;
-  --actions-content-action-content-always-blue: $primary-deep-blue;
-  --actions-content-action-content-always-white: $primary-white;
+  --action-fill-primary: #{$interaction-light-interactive-blue};
+  --action-fill-primary-hover: #{$interaction-light-teal};
+  --action-fill-primary-active: #{$interaction-light-teal-90};
+  --action-fill-primary-disabled: #{$secondary-deep-blue-10};
+  --action-fill-secondary: #{$transparent-opa0};
+  --action-fill-secondary-hover: #{$interaction-light-bold-green-18};
+  --action-fill-secondary-active: #{$transparent-opa0};
+  --action-fill-tertiary-hover: #{$interaction-light-light-green};
+  --action-fill-tertiary-active: #{$interaction-light-bold-green-18};
+  --action-fill-accent-solid: #{$primary-deep-blue};
+  --action-fill-accent-solid-hover: #{$interaction-light-teal};
+  --action-fill-accent-solid-active: #{$interaction-dark-bold-green-90-db};
+  --action-border-primary: #{$transparent-opa0};
+  --action-border-secondary: #{$interaction-light-interactive-blue};
+  --action-border-secondary-hover: #{$interaction-light-teal};
+  --action-border-secondary-active: #{$interaction-light-teal};
+  --action-border-disabled: #{$secondary-deep-blue-40};
+  --action-border-tertiary: #{$primary-deep-blue};
+  --action-content-primary: #{$primary-white};
+  --action-content-secondary: #{$interaction-light-interactive-blue};
+  --action-content-secondary-hover: #{$interaction-light-teal};
+  --action-content-secondary-active: #{$interaction-light-teal};
+  --action-content-disabled: #{$secondary-deep-blue-40};
+  --action-content-always-blue: #{$primary-deep-blue};
+  --action-content-always-white: #{$primary-white};
 
   // Spez
-  --spez-sheet-background: $primary-white;
-  --spez-sheet-background-inverted: $primary-deep-blue;
-  --spez-sheet-text-primary: $primary-deep-blue;
-  --spez-sheet-text-primary-inverted: $primary-white;
-  --spez-sheet-text-secondary: $secondary-deep-blue-60-dark-gray;
-  --spez-general-dynamic: $primary-white;
-  --spez-general-dynamic-inverted: $primary-deep-blue;
-  --spez-general-static-dark: $primary-deep-blue;
-  --spez-general-static-light: $primary-white;
-  --spez-general-highlight-dark: $feedback-dark-feedback-red-text;
-  --spez-general-highlight-light: $interaction-light-light-red;
+  --background: #{$primary-white};
+  --background-inverted: #{$primary-deep-blue};
+  --text-primary: #{$primary-deep-blue};
+  --text-primary-inverted: #{$primary-white};
+  --text-secondary: #{$secondary-deep-blue-60-dark-gray};
+  --dynamic: #{$primary-white};
+  --dynamic-inverted: #{$primary-deep-blue};
+  --static-dark: #{$primary-deep-blue};
+  --static-light: #{$primary-white};
+  --highlight-dark: #{$feedback-dark-feedback-red-text};
+  --highlight-light: #{$interaction-light-light-red};
 }
 

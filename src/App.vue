@@ -64,7 +64,7 @@ onMounted(() => {
 
 
 .app {
-  min-height: 100vh;
+
   padding: 2rem;
   background-color: var(--canvas-frame-bg);
   color: var(canvas-text);

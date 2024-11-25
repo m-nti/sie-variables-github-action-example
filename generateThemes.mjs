@@ -11,7 +11,10 @@ const variablesPath = path.join(__dirname, 'build', 'scss', '_variables.scss');
 const themesOutputPath = path.join(__dirname, 'build', 'scss', '_themes.scss');
 
 const tokensSourceDir = path.join(__dirname, '@tokens'); // Directory for @tokens
-const specificTokenFiles = ['01 Core [DX:DS].Color.json']; // Specify the exact file to process
+const specificTokenFiles = [ // Specify the exact files to process
+  '01 Core [DX:DS].Color.json',
+  // Add more files as needed
+];
 
 // Function to read and parse JSON token files
 const readTokenFiles = (filePath) => {
@@ -39,38 +42,23 @@ const convertToScssVariable = (value) => {
   // Extract the reference from within curly braces
   const reference = value.match(/{([^}]+)}/)[1];
   return '$' + reference.toLowerCase()
-  .replace(/\./g, '-')
-  .replace(/\s+/g, '-')
-  .replace(/[()]/g, '')
-  .replace(/--/g, '-')  
-  .replace(/[^a-z0-9-]/g, '-') // Replace any non-alphanumeric character with a dash
-    .replace(/-+/g, '-')         // Replace multiple consecutive dashes with a single dash
-    .replace(/^-+|-+$/g, '');    // Remove leading and trailing dashes
-    
+    .replace(/\./g, '-')
+    .replace(/\s+/g, '-')
+    .replace(/[()]/g, '')
+    .replace(/--/g, '-');
 };
 
 // Convert token path to CSS variable name
 const convertToCssVariable = (path) => {
-  // Split the path and remove any unwanted parts
+  // Split the path and remove the group name (e.g., "Fill", "Content")
   const pathParts = path.split('.');
   const lastPart = pathParts[pathParts.length - 1];
   
   return '--' + lastPart.toLowerCase()
-  .replace(/\./g, '-')
-  .replace(/\s+/g, '-')
-  .replace(/[()]/g, '')
-  .replace(/--/g, '-')  
-  .replace(/[^a-z0-9-]/g, '-') // Replace any non-alphanumeric character with a dash
-    .replace(/-+/g, '-')         // Replace multiple consecutive dashes with a single dash
-    .replace(/^-+|-+$/g, '');    // Remove leading and trailing dashes
-};
-
-// Filter and validate tokens
-const isValidToken = (path, value) => {
-  // Only include tokens that have valid references and are color-related
-  return value.includes('{') && 
-         !path.toLowerCase().includes('spacing') && // Exclude spacing tokens
-         !path.toLowerCase().includes('test');      // Exclude test tokens
+    .replace(/\./g, '-')
+    .replace(/\s+/g, '-')
+    .replace(/[()]/g, '')
+    .replace(/--/g, '-');
 };
 
 // Flatten nested tokens object and collect color tokens with references
@@ -93,10 +81,8 @@ const generateSCSSMixins = (tokens, theme, scssVariables) => {
   
   const groupedTokens = {};
 
-  // Group tokens by their top-level category and filter out unwanted tokens
+  // Group tokens by their top-level category
   Object.entries(tokens).forEach(([path, value]) => {
-    if (!isValidToken(path, value)) return;
-    
     const category = path.split('.')[0];
     if (!groupedTokens[category]) {
       groupedTokens[category] = {};
@@ -127,29 +113,60 @@ const generateSCSSMixins = (tokens, theme, scssVariables) => {
   return scssContent;
 };
 
+// Define specific files to process with patterns
+const THEME_FILES = {
+  dark: ['02 Tokens [DX:DS].Dark.json'], // '09 Doc [DX:DS].Dark.json'],
+  light: ['02 Tokens [DX:DS].Light.json'], //, '09 Doc [DX:DS].Light.json'],
+  core: ['01 Core [DX:DS].Color.json']
+};
+
 // Main execution
 try {
-  // Read specific token files from @tokens directory
-  const tokenFiles = specificTokenFiles.filter(file => 
-    fs.existsSync(path.join(tokensSourceDir, file))
-  );
-  
   const scssVariables = readSCSSVariables(variablesPath);
   
   let darkTokens = {};
   let lightTokens = {};
+  let coreTokens = {};
 
-  // Process each token file
-  tokenFiles.forEach(file => {
-    const tokens = readTokenFiles(path.join(tokensDir, file));
-    const flatTokens = flattenTokens(tokens);
-    
-    if (file.includes('Dark')) {
-      darkTokens = { ...darkTokens, ...flatTokens };
-    } else if (file.includes('Light')) {
-      lightTokens = { ...lightTokens, ...flatTokens };
+  // Process core files first
+  specificTokenFiles.forEach(file => { // Use the specificTokenFiles array
+    const filePath = path.join(tokensSourceDir, file);
+    if (fs.existsSync(filePath)) {
+      const tokens = readTokenFiles(filePath);
+      const flatTokens = flattenTokens(tokens);
+      coreTokens = { ...coreTokens, ...flatTokens };
+    } else {
+      console.warn(`Warning: Core file ${file} not found`);
     }
   });
+
+  // Process dark theme files
+  THEME_FILES.dark.forEach(file => {
+    const filePath = path.join(tokensDir, file);
+    if (fs.existsSync(filePath)) {
+      const tokens = readTokenFiles(filePath);
+      const flatTokens = flattenTokens(tokens);
+      darkTokens = { ...darkTokens, ...flatTokens };
+    } else {
+      console.warn(`Warning: Dark theme file ${file} not found`);
+    }
+  });
+
+  // Process light theme files
+  THEME_FILES.light.forEach(file => {
+    const filePath = path.join(tokensDir, file);
+    if (fs.existsSync(filePath)) {
+      const tokens = readTokenFiles(filePath);
+      const flatTokens = flattenTokens(tokens);
+      lightTokens = { ...lightTokens, ...flatTokens };
+    } else {
+      console.warn(`Warning: Light theme file ${file} not found`);
+    }
+  });
+
+  // Merge core tokens into both themes
+  darkTokens = { ...coreTokens, ...darkTokens };
+  lightTokens = { ...coreTokens, ...lightTokens };
 
   // Generate SCSS content
   const darkThemeSCSS = generateSCSSMixins(darkTokens, 'dark', scssVariables);

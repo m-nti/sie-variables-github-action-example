@@ -33,19 +33,6 @@
   --action-content-disabled: #{$secondary-deep-blue-55};
   --action-content-always-blue: #{$primary-deep-blue};
   --action-content-always-white: #{$primary-white};
-
-  // Spez
-  --background: #{$primary-deep-blue};
-  --background-inverted: #{$primary-white};
-  --text-primary: #{$primary-white};
-  --text-primary-inverted: #{$primary-deep-blue};
-  --text-secondary: #{$secondary-deep-blue-30-medium-gray};
-  --dynamic: #{$primary-deep-blue};
-  --dynamic-inverted: #{$primary-white};
-  --static-dark: #{$primary-deep-blue};
-  --static-light: #{$primary-white};
-  --highlight-dark: #{$feedback-dark-feedback-red-text};
-  --highlight-light: #{$interaction-light-light-red};
 }
 
 // Auto-generated light theme
@@ -81,18 +68,5 @@
   --action-content-disabled: #{$secondary-deep-blue-40};
   --action-content-always-blue: #{$primary-deep-blue};
   --action-content-always-white: #{$primary-white};
-
-  // Spez
-  --background: #{$primary-white};
-  --background-inverted: #{$primary-deep-blue};
-  --text-primary: #{$primary-deep-blue};
-  --text-primary-inverted: #{$primary-white};
-  --text-secondary: #{$secondary-deep-blue-60-dark-gray};
-  --dynamic: #{$primary-white};
-  --dynamic-inverted: #{$primary-deep-blue};
-  --static-dark: #{$primary-deep-blue};
-  --static-light: #{$primary-white};
-  --highlight-dark: #{$feedback-dark-feedback-red-text};
-  --highlight-light: #{$interaction-light-light-red};
 }
 

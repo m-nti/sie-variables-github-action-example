@@ -22,7 +22,7 @@ StyleDictionary.registerTransform({
 });
 
 export default {
-  source: ['tokens/**/*.json'],
+  source: ['tokens/*01*.json'],
   platforms: {
     css: {
       transformGroup: 'css',

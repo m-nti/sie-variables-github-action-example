@@ -4,8 +4,10 @@
 @mixin theme-dark {
 
   // Canvas
-  --frame-bg: #{$primary-deep-blue};
-  --frame-bg-inverted: #{$primary-white};
+  --canvas-frame-bg: #{$primary-deep-blue};
+  --canvas-frame-bg-inverted: #{$primary-white};
+  --canvas-text: #{$primary-white};
+  --canvas-text-inverted: #{$primary-deep-blue};
 
   // Actions
   --action-fill-primary: #{$interaction-dark-interactive-coral};
@@ -39,8 +41,10 @@
 @mixin theme-light {
 
   // Canvas
-  --frame-bg: #{$primary-white};
-  --frame-bg-inverted: #{$primary-deep-blue};
+  --canvas-frame-bg: #{$primary-white};
+  --canvas-frame-bg-inverted: #{$primary-deep-blue};
+  --canvas-text: #{$primary-deep-blue};
+  --canvas-text-inverted: #{$primary-white};
 
   // Actions
   --action-fill-primary: #{$interaction-light-interactive-blue};

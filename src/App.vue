@@ -66,8 +66,8 @@ onMounted(() => {
 .app {
   min-height: 100vh;
   padding: 2rem;
-  background-color: var(--frame-bg);
-  color: var(text-primary);
+  background-color: var(--canvas-frame-bg);
+  color: var(canvas-text);
 
   .header {
     display: flex;
@@ -76,7 +76,7 @@ onMounted(() => {
     margin-bottom: 3rem;
 
     h2 {
-      color: var(--text-primary);
+      color: var(--canvas-text);
       margin: 0;
     }
   }

@@ -4,7 +4,7 @@
       <h2>Button Examples</h2>
       <button class="theme-switcher" @click="toggleTheme">
         <span class="icon">{{ currentTheme === 'theme-light' ? '🌙' : '☀️' }}</span>
-        <span class="text">Switch to {{ currentTheme === 'theme-light' ? 'Dark' : 'Light' }}</span>
+        <span class="text">Switchh to {{ currentTheme === 'theme-light' ? 'Dark' : 'Light' }}</span>
         <div class="ripple-effect"></div>
       </button>
     </div>

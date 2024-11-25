@@ -1,6 +1,6 @@
 {
   "Canvas": {
-    "Frame BG": {
+    "Canvas Frame BG": {
       "$type": "color",
       "$value": "{Primary.Deep Blue}",
       "$description": "",
@@ -15,9 +15,39 @@
         }
       }
     },
-    "Frame BG Inverted": {
+    "Canvas Frame BG Inverted": {
       "$type": "color",
       "$value": "{Primary.White}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FRAME_FILL",
+            "TEXT_FILL"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "Canvas Text": {
+      "$type": "color",
+      "$value": "{Primary.White}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "FRAME_FILL",
+            "TEXT_FILL"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "Canvas Text Inverted": {
+      "$type": "color",
+      "$value": "{Primary.Deep Blue}",
       "$description": "",
       "$extensions": {
         "com.figma": {

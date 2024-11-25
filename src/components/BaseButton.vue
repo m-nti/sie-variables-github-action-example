@@ -1,3 +1,7 @@
+@use '../build/scss/_themes.scss' as *;
+@use '../styles/_fonts.scss';
+≈
+
 <template>
   <button 
     class="base-button" 
@@ -23,14 +27,13 @@ defineProps({
 </script>
 
 <style lang="scss">
-@use '../styles/_fonts.scss';
+
+
 
 .base-button {
   font-family: 'Siemens Sans', Arial, sans-serif;
   font-weight: bold;
   font-size: 1.15rem;
-  letter-spacing: 0.0em;
-  text-transform: none;
   padding: 8px 32px;
   border-radius: 0;
   cursor: pointer;
@@ -68,7 +71,6 @@ defineProps({
       background-color: var(--action-fill-secondary-active);
     }
   }
-
   // Tertiary variant
   &--tertiary {
     background-color: var(--action-fill-secondary);
@@ -82,19 +84,11 @@ defineProps({
     }
 
     &:active:not(:disabled) {
-        background-color: var(--action-fill-secondary);
-        color: var(--action-content-secondary-hover);
-                border: 1px solid var(--action-border-primary);
-
-    }
-
-    &:disabled {
-      background-color: var(--action-fill-primary-disabled);
-      color: var(--action-content-disabled);
-      border: none;
+      background-color: var(--action-fill-secondary);
+      color: var(--action-content-secondary-hover);
+      border: 1px solid var(--action-border-primary);
     }
   }
-
   &:disabled {
     background-color: var(--action-fill-primary-disabled);
     color: var(--action-content-disabled);

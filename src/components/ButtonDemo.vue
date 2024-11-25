@@ -38,15 +38,15 @@ import BaseButton from './BaseButton.vue'
 
 .button-demo {
   padding: 2rem;
-  background-color: var(--canvas-frame-bg);
-  color: var(--spez-sheet-text-primary);
+  background-color: var(--frame-bg);
+  color: var(--text-primary);
 
   .button-section {
     margin-bottom: 2rem;
 
     h3 {
       margin-bottom: 1rem;
-      color: var(--spez-sheet-text-primary);
+      color: var(--text-primary);
     }
   }
 

@@ -1,0 +1,98 @@
+@use '../build/scss/_variables.scss' as *;
+
+// Auto-generated dark theme
+@mixin theme-dark {
+
+  // Canvas
+  --frame-bg: #{$primary-deep-blue};
+  --frame-bg-inverted: #{$primary-white};
+
+  // Actions
+  --action-fill-primary: #{$interaction-dark-interactive-coral};
+  --action-fill-primary-hover: #{$primary-bold-green};
+  --action-fill-primary-active: #{$interaction-dark-bold-green-90-db};
+  --action-fill-primary-disabled: #{$secondary-deep-blue-80};
+  --action-fill-secondary: #{$transparent-opa0};
+  --action-fill-secondary-hover: #{$interaction-dark-bold-green-12-db};
+  --action-fill-secondary-active: #{$transparent-opa0};
+  --action-fill-tertiary-hover: #{$interaction-dark-light-green-40};
+  --action-fill-tertiary-active: #{$interaction-dark-bold-green-90-db};
+  --action-fill-accent-solid: #{$primary-white};
+  --action-fill-accent-solid-hover: #{$primary-bold-green};
+  --action-fill-accent-solid-active: #{$interaction-dark-bold-green-90-db};
+  --action-border-primary: #{$transparent-opa0};
+  --action-border-secondary: #{$interaction-dark-interactive-coral};
+  --action-border-secondary-hover: #{$primary-bold-green};
+  --action-border-secondary-active: #{$primary-bold-green};
+  --action-border-disabled: #{$secondary-deep-blue-55};
+  --action-border-tertiary: #{$primary-deep-blue};
+  --action-content-primary: #{$primary-deep-blue};
+  --action-content-secondary: #{$interaction-dark-interactive-coral};
+  --action-content-secondary-hover: #{$primary-bold-green};
+  --action-content-secondary-active: #{$primary-bold-green};
+  --action-content-disabled: #{$secondary-deep-blue-55};
+  --action-content-always-blue: #{$primary-deep-blue};
+  --action-content-always-white: #{$primary-white};
+
+  // Spez
+  --background: #{$primary-deep-blue};
+  --background-inverted: #{$primary-white};
+  --text-primary: #{$primary-white};
+  --text-primary-inverted: #{$primary-deep-blue};
+  --text-secondary: #{$secondary-deep-blue-30-medium-gray};
+  --dynamic: #{$primary-deep-blue};
+  --dynamic-inverted: #{$primary-white};
+  --static-dark: #{$primary-deep-blue};
+  --static-light: #{$primary-white};
+  --highlight-dark: #{$feedback-dark-feedback-red-text};
+  --highlight-light: #{$interaction-light-light-red};
+}
+
+// Auto-generated light theme
+@mixin theme-light {
+
+  // Canvas
+  --frame-bg: #{$primary-white};
+  --frame-bg-inverted: #{$primary-deep-blue};
+
+  // Actions
+  --action-fill-primary: #{$interaction-light-interactive-blue};
+  --action-fill-primary-hover: #{$interaction-light-teal};
+  --action-fill-primary-active: #{$interaction-light-teal-90};
+  --action-fill-primary-disabled: #{$secondary-deep-blue-10};
+  --action-fill-secondary: #{$transparent-opa0};
+  --action-fill-secondary-hover: #{$interaction-light-bold-green-18};
+  --action-fill-secondary-active: #{$transparent-opa0};
+  --action-fill-tertiary-hover: #{$interaction-light-light-green};
+  --action-fill-tertiary-active: #{$interaction-light-bold-green-18};
+  --action-fill-accent-solid: #{$primary-deep-blue};
+  --action-fill-accent-solid-hover: #{$interaction-light-teal};
+  --action-fill-accent-solid-active: #{$interaction-dark-bold-green-90-db};
+  --action-border-primary: #{$transparent-opa0};
+  --action-border-secondary: #{$interaction-light-interactive-blue};
+  --action-border-secondary-hover: #{$interaction-light-teal};
+  --action-border-secondary-active: #{$interaction-light-teal};
+  --action-border-disabled: #{$secondary-deep-blue-40};
+  --action-border-tertiary: #{$primary-deep-blue};
+  --action-content-primary: #{$primary-white};
+  --action-content-secondary: #{$interaction-light-interactive-blue};
+  --action-content-secondary-hover: #{$interaction-light-teal};
+  --action-content-secondary-active: #{$interaction-light-teal};
+  --action-content-disabled: #{$secondary-deep-blue-40};
+  --action-content-always-blue: #{$primary-deep-blue};
+  --action-content-always-white: #{$primary-white};
+
+  // Spez
+  --background: #{$primary-white};
+  --background-inverted: #{$primary-deep-blue};
+  --text-primary: #{$primary-deep-blue};
+  --text-primary-inverted: #{$primary-white};
+  --text-secondary: #{$secondary-deep-blue-60-dark-gray};
+  --dynamic: #{$primary-white};
+  --dynamic-inverted: #{$primary-deep-blue};
+  --static-dark: #{$primary-deep-blue};
+  --static-light: #{$primary-white};
+  --highlight-dark: #{$feedback-dark-feedback-red-text};
+  --highlight-light: #{$interaction-light-light-red};
+}
+

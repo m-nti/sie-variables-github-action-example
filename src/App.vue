@@ -1,30 +1,32 @@
 <template>
-  <div class="app" :class="currentTheme">
+  <div :class="currentTheme" class="app">
     <div class="header">
-      <h2>Button Examples</h2>
+      <h2>Theme Switcher</h2>
       <button class="theme-switcher" @click="toggleTheme">
         <span class="icon">{{ currentTheme === 'theme-light' ? '🌙' : '☀️' }}</span>
-        <span class="text">Switchh to {{ currentTheme === 'theme-light' ? 'Dark' : 'Light' }}</span>
+        <span class="text">Switch to {{ currentTheme === 'theme-light' ? 'Dark' : 'Light' }}</span>
         <div class="ripple-effect"></div>
       </button>
     </div>
-    <div class="button-demo">
-      <div class="button-grid">
-        <div class="button-group">
-          <div class="button-stack">
-            <BaseButton>Primary Button</BaseButton>
+    <div class="content">
+      <div class="button-demo">
+        <div class="button-grid">
+          <div class="button-group">
+            <div class="button-stack">
+              <BaseButton>Primary Button</BaseButton>
+            </div>
           </div>
-        </div>
 
-        <div class="button-group">
-          <div class="button-stack">
-            <BaseButton variant="secondary">Secondary Button</BaseButton>
+          <div class="button-group">
+            <div class="button-stack">
+              <BaseButton variant="secondary">Secondary Button</BaseButton>
+            </div>
           </div>
-        </div>
 
-        <div class="button-group">
-          <div class="button-stack">
-            <BaseButton variant="tertiary">Tertiary Button</BaseButton>
+          <div class="button-group">
+            <div class="button-stack">
+              <BaseButton variant="tertiary">Tertiary Button</BaseButton>
+            </div>
           </div>
         </div>
       </div>
@@ -33,33 +35,39 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-import BaseButton from './components/BaseButton.vue'
+import { ref, onMounted } from 'vue';
+import BaseButton from './components/BaseButton.vue';
 
-const currentTheme = ref('theme-light')
+const currentTheme = ref('theme-light');
 
 const toggleTheme = () => {
-  currentTheme.value = currentTheme.value === 'theme-light' ? 'theme-dark' : 'theme-light'
+  currentTheme.value = currentTheme.value === 'theme-light' ? 'theme-dark' : 'theme-light';
+  document.documentElement.className = currentTheme.value;
 }
+
+// Set initial theme
+onMounted(() => {
+  document.documentElement.className = currentTheme.value;
+});
 </script>
 
 <style lang="scss">
 @use '../build/scss/_variables.scss' as *;
 @use '../build/scss/_themes.scss' as *;
+:root.theme-light {
+  @include theme-light;
+}
+
+:root.theme-dark {
+  @include theme-dark;
+}
+
 
 .app {
   min-height: 100vh;
   padding: 2rem;
-  background-color: var(--canvas-frame-bg);
-  color: var(--spez-sheet-text-primary);
-
-  &.theme-light {
-    @include light-theme;
-  }
-
-  &.theme-dark {
-    @include dark-theme;
-  }
+  background-color: var(--frame-bg);
+  color: var(text-primary);
 
   .header {
     display: flex;
@@ -68,7 +76,7 @@ const toggleTheme = () => {
     margin-bottom: 3rem;
 
     h2 {
-      color: var(--spez-sheet-text-primary);
+      color: var(--text-primary);
       margin: 0;
     }
   }
@@ -89,8 +97,7 @@ const toggleTheme = () => {
     font-weight: 600;
     font-size: 0.85rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-   
-    
+
     .icon {
       font-size: 1.2em;
       transform-origin: center;
@@ -98,7 +105,6 @@ const toggleTheme = () => {
     }
 
     .text {
-    
       letter-spacing: 0.5px;
       text-transform: uppercase;
       font-size: 0.9em;
@@ -144,9 +150,7 @@ const toggleTheme = () => {
       height: 160px;
       opacity: 1;
       transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    // Theme-specific styles
+    } // Theme-specific styles
     .theme-dark & {
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 

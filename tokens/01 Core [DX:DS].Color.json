@@ -10,9 +10,7 @@
           "scopes": [
             "ALL_SCOPES"
           ],
-          "codeSyntax": {
-            "WEB": "LARSI-IST-SEXY"
-          }
+          "codeSyntax": {}
         }
       }
     },
@@ -1173,6 +1171,20 @@
     "Image Overlay": {
       "$type": "color",
       "$value": "#00000066",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "this-is-a-test-color-too": {
+      "$type": "color",
+      "$value": "#ff00a1",
       "$description": "",
       "$extensions": {
         "com.figma": {

@@ -1181,6 +1181,20 @@
           "codeSyntax": {}
         }
       }
+    },
+    "this-is-a-test-color-too": {
+      "$type": "color",
+      "$value": "#ff00a1",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     }
   }
 }

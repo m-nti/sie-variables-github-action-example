@@ -65,7 +65,7 @@
     "Fill": {
       "action-fill-primary": {
         "$type": "color",
-        "$value": "{Interaction.Light.Interactive Blue}",
+        "$value": "{this is a test color}",
         "$description": "",
         "$extensions": {
           "com.figma": {

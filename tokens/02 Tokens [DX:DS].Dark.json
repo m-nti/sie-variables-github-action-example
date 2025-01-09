@@ -65,7 +65,7 @@
     "Fill": {
       "action-fill-primary": {
         "$type": "color",
-        "$value": "{Interaction.Dark.Interactive Coral}",
+        "$value": "{Custom.this-is-a-test-color-too}",
         "$description": "",
         "$extensions": {
           "com.figma": {

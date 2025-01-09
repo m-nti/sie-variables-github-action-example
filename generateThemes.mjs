@@ -111,8 +111,8 @@ const generateSCSSMixins = (tokens, theme, scssVariables) => {
 
 // Define specific files to process with patterns
 const THEME_FILES = {
-  dark: ['02 Tokens [DX:DS].Dark.json'], // '09 Doc [DX:DS].Dark.json'],
-  light: ['02 Tokens [DX:DS].Light.json'], //, '09 Doc [DX:DS].Light.json']
+  dark: ['02 Tokens [DX:DS].Dark.json'],  // '09 Doc [DX:DS].Dark.json'],
+  light: ['02 Tokens [DX:DS].Light.json'] //, '09 Doc [DX:DS].Light.json']
 };
 
 // Main execution

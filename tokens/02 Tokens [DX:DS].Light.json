@@ -59,13 +59,27 @@
           "codeSyntax": {}
         }
       }
+    },
+    "Canvas FontFamily": {
+      "$type": "string",
+      "$value": "{Custom.FontFamilies.Helvetica}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     }
   },
   "Actions": {
     "Fill": {
       "action-fill-primary": {
         "$type": "color",
-        "$value": "{this is a test color}",
+        "$value": "{Interaction.Light.Interactive Blue}",
         "$description": "",
         "$extensions": {
           "com.figma": {

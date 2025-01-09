@@ -1182,17 +1182,33 @@
         }
       }
     },
-    "this-is-a-test-color-too": {
-      "$type": "color",
-      "$value": "#ff00a1",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
+    "FontFamilies": {
+      "ComicSans": {
+        "$type": "string",
+        "$value": "Comic Sans MS",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "Helvetica": {
+        "$type": "string",
+        "$value": "Helvetica",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
         }
       }
     }

@@ -73,9 +73,7 @@
             "scopes": [
               "ALL_FILLS"
             ],
-            "codeSyntax": {
-              "WEB": "$color-action-fill-primary"
-            }
+            "codeSyntax": {}
           }
         }
       },

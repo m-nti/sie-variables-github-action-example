@@ -59,20 +59,6 @@
           "codeSyntax": {}
         }
       }
-    },
-    "Canvas FontFamily": {
-      "$type": "string",
-      "$value": "{Custom.FontFamilies.ComicSans}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
     }
   },
   "Actions": {
@@ -93,7 +79,7 @@
       },
       "action-fill-primary-hover": {
         "$type": "color",
-        "$value": "{Primary.Bold Green}",
+        "$value": "{Feedback.Dark.Feedback Orange}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -121,7 +107,7 @@
       },
       "action-fill-primary-disabled": {
         "$type": "color",
-        "$value": "{Secondary.Deep Blue 80}",
+        "$value": "{Secondary.Deep Blue 60  (Dark Gray)}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -389,7 +375,21 @@
           }
         }
       },
-      "action-content-disabled": {
+      "action-content-disabled-primary": {
+        "$type": "color",
+        "$value": "{Secondary.Deep Blue 55}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "action-content-disabled-secondary": {
         "$type": "color",
         "$value": "{Secondary.Deep Blue 55}",
         "$description": "",

@@ -72,6 +72,22 @@
         }
       }
     },
+    "Component": {
+      "Border": {
+        "$type": "color",
+        "$value": "#7b61ff",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
     "Style Guide": {
       "BG": {
         "$type": "color",
@@ -158,10 +174,10 @@
         }
       }
     },
-    "Component": {
-      "Border": {
+    "Spacing": {
+      "4px": {
         "$type": "color",
-        "$value": "#7b61ff",
+        "$value": "#ff0f00",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -172,9 +188,7 @@
             "codeSyntax": {}
           }
         }
-      }
-    },
-    "Spacing": {
+      },
       "8px": {
         "$type": "color",
         "$value": "#ff00f5",

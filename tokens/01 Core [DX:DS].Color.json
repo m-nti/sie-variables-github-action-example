@@ -86,6 +86,20 @@
     }
   },
   "Secondary": {
+    "Deep Blue 86": {
+      "$type": "color",
+      "$value": "#23233c",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
     "Deep Blue 85": {
       "$type": "color",
       "$value": "#262648",
@@ -1171,6 +1185,34 @@
     "Image Overlay": {
       "$type": "color",
       "$value": "#00000066",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "test": {
+      "$type": "color",
+      "$value": "#ff0000",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "test 2": {
+      "$type": "color",
+      "$value": "#c5ffef",
       "$description": "",
       "$extensions": {
         "com.figma": {

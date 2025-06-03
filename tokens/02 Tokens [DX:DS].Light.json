@@ -219,7 +219,7 @@
       },
       "action-fill-accent-solid-active": {
         "$type": "color",
-        "$value": "{Interaction.Dark.Bold Green 90 DB}",
+        "$value": "{Interaction.Light.Teal 90}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -375,7 +375,21 @@
           }
         }
       },
-      "action-content-disabled": {
+      "action-content-tertiarty": {
+        "$type": "color",
+        "$value": "{Primary.Deep Blue}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "action-content-disabled-primary": {
         "$type": "color",
         "$value": "{Secondary.Deep Blue 40}",
         "$description": "",
@@ -415,6 +429,36 @@
             ],
             "codeSyntax": {}
           }
+        }
+      }
+    }
+  },
+  "Scrollbar": {
+    "Track": {
+      "$type": "color",
+      "$value": "{Secondary.Bright Sand}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "Thumb": {
+      "$type": "color",
+      "$value": "{Secondary.Deep Blue 30 (Medium Gray)}",
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
         }
       }
     }
